@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head><title>HTML Lanjutan</title></head>
+<body>
+<h1>Data Mahasiswa</h1>
+<table border="1">
+    <tr><th>NIM</th><th>Nama</th><th>Program Studi</th></tr>
+    <tr><td>31241001</td><td>Andi</td><td>Teknik Informatika</td></tr>
+    <tr><td>31241002</td><td>Budi</td><td>Teknik Informatika</td></tr>
+    <tr><td>31241003</td><td>Yunia</td><td>Teknik Informatika</td></tr>
+    <tr><td>31241004</td><td>Hana</td><td>Teknik Informatika</td></tr>
+    <tr><td>31241005</td><td>salma</td><td>Teknik Informatika</td></tr>
+</table>
+
+<table border="1">
+    <caption>Nilai Praktikum</caption>
+    <thead><tr><th>No</th><th>Nama</th><th>Nilai</th><th>Keterangan</th></tr></thead>
+    <tbody>
+        <tr><td>1</td><td>Andi</td><td>85</td><td>Lulus</td></tr>
+        <tr><td>2</td><td>Budi</td><td>90</td><td>Lulus</td></tr>
+        <tr><td>3</td><td>Yunia</td><td>90</td><td>Lulus</td></tr>
+        <tr><td>4</td><td>Hana</td><td>90</td><td>Lulus</td></tr>
+        <tr><td>5</td><td>salma</td><td>70</td><td style="background-color: #bdbdbd; font-weight: bold;">Remedial</td></tr>
+
+
+    </tbody>
+    <tfoot><tr><td colspan="2">Rata-rata</td> 
+        <td colspan="2">85</td></tr></tfoot>
+
+</table>
+
+<h1>Form Registrasi Mahasiswa</h1>
+<form>
+    <label for="nama">Nama Lengkap</label><br>
+    <input type="text" id="nama" name="nama"><br><br>
+    <label for="email">Email</label><br>
+    <input type="email" id="email" name="email"><br><br>
+    <label for="password">Password</label><br>
+    <input type="password" id="password" name="password"><br><br>
+    <label for="tanggal">Tanggal Lahir</label><br>
+    <input type="date" id="tanggal" name="tanggal"><br><br>
+    <button for="submit">Daftar</button>
+    <button type="reset">Reset</button>
+</form>
+
+<h2>Jenis Kelamin</h2>
+<input type="radio" id="laki" name="jk" value="L">
+<label for="laki">Laki-laki</label>
+<input type="radio" id="perempuan" name="jk" value="P">
+<label for="perempuan">Perempuan</label>
+
+<h2>Keahlian</h2>
+<input type="checkbox" id="html">
+
+</body>
+</html>
